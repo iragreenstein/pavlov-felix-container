@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<repository lastmodified="20190912033051.491">
+<repository lastmodified="20190912110721.049">
    <resource id="io.swagger.annotations/1.5.13" symbolicname="io.swagger.annotations" version="1.5.13" presentationname="swagger-annotations" uri="http://central.maven.org/maven2/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13.jar">
       <description>Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/</description>
       <size>20654</size>
@@ -318,44 +318,6 @@
       <require name="package" filter="(&amp;(package=org.w3c.dom.ls)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.w3c.dom.ls</require>
       <require name="package" filter="(&amp;(package=org.xml.sax)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.xml.sax</require>
    </resource>
-   <resource id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml/2.9.9" symbolicname="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml" version="2.9.9" presentationname="Jackson-dataformat-YAML" uri="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.9/jackson-dataformat-yaml-2.9.9.jar">
-      <description>Support for reading and writing YAML-encoded data via Jackson abstractions.</description>
-      <size>42456</size>
-      <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
-      <capability name="bundle">
-         <p n="symbolicname" v="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
-         <p n="presentationname" v="Jackson-dataformat-YAML"/>
-         <p n="version" t="version" v="2.9.9"/>
-         <p n="manifestversion" v="2"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="com.fasterxml.jackson.dataformat.yaml"/>
-         <p n="version" t="version" v="2.9.9"/>
-         <p n="uses:" v="com.fasterxml.jackson.core,com.fasterxml.jackson.core.base,com.fasterxml.jackson.core.format,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.util,com.fasterxml.jackson.databind,org.yaml.snakeyaml,org.yaml.snakeyaml.emitter,org.yaml.snakeyaml.error,org.yaml.snakeyaml.events,org.yaml.snakeyaml.parser,org.yaml.snakeyaml.resolver"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="com.fasterxml.jackson.dataformat.yaml.snakeyaml.error"/>
-         <p n="version" t="version" v="2.9.9"/>
-         <p n="uses:" v="com.fasterxml.jackson.core,com.fasterxml.jackson.dataformat.yaml,org.yaml.snakeyaml.error"/>
-      </capability>
-      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.core)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.core</require>
-      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.core.base)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.core.base</require>
-      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.core.format)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.core.format</require>
-      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.core.io)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.core.io</require>
-      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.core.json)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.core.json</require>
-      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.core.util)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.core.util</require>
-      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.databind)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.databind</require>
-      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.dataformat.yaml)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.dataformat.yaml</require>
-      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.dataformat.yaml.snakeyaml.error)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.dataformat.yaml.snakeyaml.error</require>
-      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml</require>
-      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.emitter)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.emitter</require>
-      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.error)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.error</require>
-      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.events)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.events</require>
-      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.nodes)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.nodes</require>
-      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.parser)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.parser</require>
-      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.reader)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.reader</require>
-      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.resolver)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.resolver</require>
-   </resource>
    <resource id="com.fasterxml.jackson.datatype.jackson-datatype-jsr310/2.9.9" symbolicname="com.fasterxml.jackson.datatype.jackson-datatype-jsr310" version="2.9.9" presentationname="Jackson datatype: JSR310" uri="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.9/jackson-datatype-jsr310-2.9.9.jar">
       <description>Add-on module to support JSR-310 (Java 8 Date &amp; Time API) data types.</description>
       <size>100674</size>
@@ -412,29 +374,43 @@
       <require name="package" filter="(&amp;(package=com.fasterxml.jackson.datatype.jsr310.ser)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.datatype.jsr310.ser</require>
       <require name="package" filter="(&amp;(package=com.fasterxml.jackson.datatype.jsr310.ser.key)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.datatype.jsr310.ser.key</require>
    </resource>
-   <resource id="findbugsAnnotations/2.0.0" symbolicname="findbugsAnnotations" version="2.0.0" presentationname="FindbugsAnnotations" uri="https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar">
-      <size>74557</size>
+   <resource id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml/2.9.9" symbolicname="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml" version="2.9.9" presentationname="Jackson-dataformat-YAML" uri="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.9/jackson-dataformat-yaml-2.9.9.jar">
+      <description>Support for reading and writing YAML-encoded data via Jackson abstractions.</description>
+      <size>42456</size>
+      <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
       <capability name="bundle">
-         <p n="symbolicname" v="findbugsAnnotations"/>
-         <p n="presentationname" v="FindbugsAnnotations"/>
-         <p n="version" t="version" v="2.0.0"/>
+         <p n="symbolicname" v="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
+         <p n="presentationname" v="Jackson-dataformat-YAML"/>
+         <p n="version" t="version" v="2.9.9"/>
          <p n="manifestversion" v="2"/>
       </capability>
       <capability name="package">
-         <p n="package" v="edu.umd.cs.findbugs.annotations"/>
+         <p n="package" v="com.fasterxml.jackson.dataformat.yaml"/>
+         <p n="version" t="version" v="2.9.9"/>
+         <p n="uses:" v="com.fasterxml.jackson.core,com.fasterxml.jackson.core.base,com.fasterxml.jackson.core.format,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.util,com.fasterxml.jackson.databind,org.yaml.snakeyaml,org.yaml.snakeyaml.emitter,org.yaml.snakeyaml.error,org.yaml.snakeyaml.events,org.yaml.snakeyaml.parser,org.yaml.snakeyaml.resolver"/>
       </capability>
       <capability name="package">
-         <p n="package" v="javax.annotation"/>
+         <p n="package" v="com.fasterxml.jackson.dataformat.yaml.snakeyaml.error"/>
+         <p n="version" t="version" v="2.9.9"/>
+         <p n="uses:" v="com.fasterxml.jackson.core,com.fasterxml.jackson.dataformat.yaml,org.yaml.snakeyaml.error"/>
       </capability>
-      <capability name="package">
-         <p n="package" v="javax.annotation.concurrent"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="javax.annotation.meta"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="net.jcip.annotations"/>
-      </capability>
+      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.core)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.core</require>
+      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.core.base)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.core.base</require>
+      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.core.format)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.core.format</require>
+      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.core.io)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.core.io</require>
+      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.core.json)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.core.json</require>
+      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.core.util)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.core.util</require>
+      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.databind)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.databind</require>
+      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.dataformat.yaml)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.dataformat.yaml</require>
+      <require name="package" filter="(&amp;(package=com.fasterxml.jackson.dataformat.yaml.snakeyaml.error)(&amp;(version&gt;=2.9.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package com.fasterxml.jackson.dataformat.yaml.snakeyaml.error</require>
+      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml</require>
+      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.emitter)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.emitter</require>
+      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.error)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.error</require>
+      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.events)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.events</require>
+      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.nodes)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.nodes</require>
+      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.parser)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.parser</require>
+      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.reader)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.reader</require>
+      <require name="package" filter="(&amp;(package=org.yaml.snakeyaml.resolver)(&amp;(version&gt;=1.23.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.yaml.snakeyaml.resolver</require>
    </resource>
    <resource id="com.google.gson/2.8.5" symbolicname="com.google.gson" version="2.8.5" presentationname="Gson" uri="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar">
       <description>Gson JSON library</description>
@@ -1534,215 +1510,140 @@
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.servlet.spi)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.servlet.spi</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.uri)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.uri</require>
    </resource>
-   <resource id="org.glassfish.jersey.core.jersey-client/2.29.0" symbolicname="org.glassfish.jersey.core.jersey-client" version="2.29.0" presentationname="jersey-core-client" uri="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.29/jersey-client-2.29.jar">
-      <description>Jersey core client implementation</description>
-      <size>218808</size>
+   <resource id="org.glassfish.jersey.inject.jersey-hk2/2.29.0" symbolicname="org.glassfish.jersey.inject.jersey-hk2" version="2.29.0" presentationname="jersey-inject-hk2" uri="https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.29/jersey-hk2-2.29.jar">
+      <description>HK2 InjectionManager implementation</description>
+      <size>81751</size>
       <license>http://www.eclipse.org/legal/epl-2.0, https://www.gnu.org/software/classpath/license.html, http://www.eclipse.org/org/documents/edl-v10.php, https://opensource.org/licenses/BSD-2-Clause, http://www.apache.org/licenses/LICENSE-2.0.html, https://creativecommons.org/publicdomain/zero/1.0/, http://asm.objectweb.org/license.html, jquery.org/license, http://www.opensource.org/licenses/mit-license.php, https://www.w3.org/Consortium/Legal/copyright-documents-19990405</license>
       <capability name="bundle">
-         <p n="symbolicname" v="org.glassfish.jersey.core.jersey-client"/>
-         <p n="presentationname" v="jersey-core-client"/>
+         <p n="symbolicname" v="org.glassfish.jersey.inject.jersey-hk2"/>
+         <p n="presentationname" v="jersey-inject-hk2"/>
          <p n="version" t="version" v="2.29.0"/>
          <p n="manifestversion" v="2"/>
       </capability>
       <capability name="package">
-         <p n="package" v="org.glassfish.jersey.client.inject"/>
-         <p n="uses:" v="org.glassfish.jersey.model"/>
-         <p n="version" t="version" v="2.29.0"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.client"/>
-         <p n="uses:" v="javax.inject,javax.net.ssl,javax.ws.rs,javax.ws.rs.client,javax.ws.rs.core,javax.ws.rs.ext,org.glassfish.jersey,org.glassfish.jersey.client.inject,org.glassfish.jersey.client.spi,org.glassfish.jersey.internal,org.glassfish.jersey.internal.inject,org.glassfish.jersey.internal.util,org.glassfish.jersey.internal.util.collection,org.glassfish.jersey.message,org.glassfish.jersey.message.internal,org.glassfish.jersey.spi"/>
-         <p n="version" t="version" v="2.29.0"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.client.spi"/>
-         <p n="uses:" v="javax.net.ssl,javax.ws.rs.client,javax.ws.rs.core,org.glassfish.jersey.client,org.glassfish.jersey.process"/>
-         <p n="version" t="version" v="2.29.0"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.client.authentication"/>
-         <p n="uses:" v="javax.ws.rs,javax.ws.rs.client,javax.ws.rs.core"/>
-         <p n="version" t="version" v="2.29.0"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.client.filter"/>
-         <p n="uses:" v="javax.ws.rs.client,javax.ws.rs.core"/>
-         <p n="version" t="version" v="2.29.0"/>
+         <p n="package" v="org.glassfish.jersey.inject.hk2"/>
+         <p n="version" t="version" v="2.29"/>
+         <p n="uses:" v="javax.annotation,javax.inject,javax.ws.rs.core,org.glassfish.hk2.api,org.glassfish.hk2.utilities.binding,org.glassfish.jersey.inject.spi,org.glassfish.jersey.internal.inject,org.glassfish.jersey.internal.l10n,org.glassfish.jersey.internal.util.collection,org.glassfish.jersey.model,org.glassfish.jersey.process.internal"/>
       </capability>
       <require name="package" filter="(&amp;(package=javax.annotation)(&amp;(version&gt;=1.2.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.annotation</require>
       <require name="package" filter="(&amp;(package=javax.inject)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package javax.inject</require>
-      <require name="package" filter="(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.net.ssl</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.client)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.client</require>
       <require name="package" filter="(&amp;(package=javax.ws.rs.core)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.core</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.ext)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.ext</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.client.inject)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.client.inject</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.client.spi)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.client.spi</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.hk2.api)(&amp;(version&gt;=2.5.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.hk2.api</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.hk2.extension)(&amp;(version&gt;=2.5.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.hk2.extension</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.hk2.utilities)(&amp;(version&gt;=2.5.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.hk2.utilities</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.hk2.utilities.binding)(&amp;(version&gt;=2.5.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.hk2.utilities.binding</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.hk2.utilities.reflection)(&amp;(version&gt;=2.5.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.hk2.utilities.reflection</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.inject.spi)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.inject.spi</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.guava)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.guava</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.inject)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.inject</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.l10n)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.l10n</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.routing)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.routing</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util.collection)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util.collection</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.model)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.model</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.process.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.process.internal</require>
+      <require name="package" filter="(&amp;(package=org.jvnet.hk2.external.runtime)(&amp;(version&gt;=2.5.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.jvnet.hk2.external.runtime</require>
+   </resource>
+   <resource id="org.glassfish.jersey.media.jersey-media-jaxb/2.29.0" symbolicname="org.glassfish.jersey.media.jersey-media-jaxb" version="2.29.0" presentationname="jersey-media-jaxb" uri="https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.29/jersey-media-jaxb-2.29.jar">
+      <description>JAX-RS features based upon JAX-B.</description>
+      <size>86010</size>
+      <license>http://www.eclipse.org/legal/epl-2.0, https://www.gnu.org/software/classpath/license.html, http://www.eclipse.org/org/documents/edl-v10.php, https://opensource.org/licenses/BSD-2-Clause, http://www.apache.org/licenses/LICENSE-2.0.html, https://creativecommons.org/publicdomain/zero/1.0/, http://asm.objectweb.org/license.html, jquery.org/license, http://www.opensource.org/licenses/mit-license.php, https://www.w3.org/Consortium/Legal/copyright-documents-19990405</license>
+      <capability name="bundle">
+         <p n="symbolicname" v="org.glassfish.jersey.media.jersey-media-jaxb"/>
+         <p n="presentationname" v="jersey-media-jaxb"/>
+         <p n="version" t="version" v="2.29.0"/>
+         <p n="manifestversion" v="2"/>
+      </capability>
+      <capability name="package">
+         <p n="package" v="org.glassfish.jersey.jaxb.internal"/>
+         <p n="version" t="version" v="2.29"/>
+         <p n="uses:" v="javax.inject,javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,javax.xml.bind,javax.xml.parsers,javax.xml.stream,javax.xml.transform,javax.xml.transform.sax,javax.xml.validation,org.glassfish.jersey.internal.inject,org.glassfish.jersey.internal.l10n,org.glassfish.jersey.internal.spi,org.glassfish.jersey.message.internal,org.w3c.dom,org.xml.sax"/>
+      </capability>
+      <require name="package" filter="(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.bind</require>
+      <require name="package" filter="(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.bind.annotation</require>
+      <require name="package" filter="(&amp;(package=javax.inject)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package javax.inject</require>
+      <require name="package" filter="(&amp;(package=javax.ws.rs)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs</require>
+      <require name="package" filter="(&amp;(package=javax.ws.rs.core)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.core</require>
+      <require name="package" filter="(&amp;(package=javax.ws.rs.ext)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.ext</require>
+      <require name="package" filter="(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.parsers</require>
+      <require name="package" filter="(&amp;(package=javax.xml.stream)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.stream</require>
+      <require name="package" filter="(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.transform</require>
+      <require name="package" filter="(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.transform.dom</require>
+      <require name="package" filter="(&amp;(package=javax.xml.transform.sax)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.transform.sax</require>
+      <require name="package" filter="(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.transform.stream</require>
+      <require name="package" filter="(&amp;(package=javax.xml.validation)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.validation</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.inject)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.inject</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.l10n)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.l10n</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.spi)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.spi</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util.collection)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util.collection</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.message)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.message</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.message.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.message.internal</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.model)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.model</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.model.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.model.internal</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.process)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.process</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.process.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.process.internal</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.spi)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.spi</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.uri)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.uri</require>
+      <require name="package" filter="(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.w3c.dom</require>
+      <require name="package" filter="(&amp;(package=org.xml.sax)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.xml.sax</require>
+      <require name="package" filter="(&amp;(package=org.xml.sax.helpers)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.xml.sax.helpers</require>
    </resource>
-   <resource id="org.glassfish.jersey.core.jersey-common/2.29.0" symbolicname="org.glassfish.jersey.core.jersey-common" version="2.29.0" presentationname="jersey-core-common" uri="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.29/jersey-common-2.29.jar">
-      <description>Jersey core common packages</description>
-      <size>1157956</size>
-      <license>http://www.eclipse.org/legal/epl-2.0, https://www.gnu.org/software/classpath/license.html, http://www.apache.org/licenses/LICENSE-2.0.html, https://creativecommons.org/publicdomain/zero/1.0/</license>
+   <resource id="org.glassfish.jersey.media.jersey-media-multipart/2.29.0" symbolicname="org.glassfish.jersey.media.jersey-media-multipart" version="2.29.0" presentationname="jersey-media-multipart" uri="https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-multipart/2.29/jersey-media-multipart-2.29.jar">
+      <description>Jersey Multipart entity providers support module.</description>
+      <size>80363</size>
+      <license>http://www.eclipse.org/legal/epl-2.0, https://www.gnu.org/software/classpath/license.html, http://www.eclipse.org/org/documents/edl-v10.php, https://opensource.org/licenses/BSD-2-Clause, http://www.apache.org/licenses/LICENSE-2.0.html, https://creativecommons.org/publicdomain/zero/1.0/, http://asm.objectweb.org/license.html, jquery.org/license, http://www.opensource.org/licenses/mit-license.php, https://www.w3.org/Consortium/Legal/copyright-documents-19990405</license>
       <capability name="bundle">
-         <p n="symbolicname" v="org.glassfish.jersey.core.jersey-common"/>
-         <p n="presentationname" v="jersey-core-common"/>
+         <p n="symbolicname" v="org.glassfish.jersey.media.jersey-media-multipart"/>
+         <p n="presentationname" v="jersey-media-multipart"/>
          <p n="version" t="version" v="2.29.0"/>
          <p n="manifestversion" v="2"/>
       </capability>
       <capability name="package">
-         <p n="package" v="org.glassfish.jersey"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.net.ssl,javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,org.glassfish.jersey.internal.inject,org.glassfish.jersey.internal.util"/>
+         <p n="package" v="org.glassfish.jersey.media.multipart"/>
+         <p n="uses:" v="javax.ws.rs.core,javax.ws.rs.ext,org.glassfish.jersey.internal.util,org.glassfish.jersey.message,org.glassfish.jersey.message.internal,org.glassfish.jersey.server,org.glassfish.jersey.server.model,org.jvnet.mimepull"/>
+         <p n="version" t="version" v="2.29.0"/>
       </capability>
       <capability name="package">
-         <p n="package" v="org.glassfish.jersey.inject.spi"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="org.glassfish.jersey.internal.inject,org.glassfish.jersey.model"/>
+         <p n="package" v="org.glassfish.jersey.media.multipart.file"/>
+         <p n="uses:" v="javax.ws.rs.core,org.glassfish.jersey.media.multipart"/>
+         <p n="version" t="version" v="2.29.0"/>
       </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.internal"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,org.glassfish.jersey,org.glassfish.jersey.internal.inject,org.glassfish.jersey.internal.l10n,org.glassfish.jersey.internal.spi,org.glassfish.jersey.internal.util,org.glassfish.jersey.message,org.glassfish.jersey.model.internal,org.glassfish.jersey.process.internal,org.glassfish.jersey.spi,org.osgi.framework"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.internal.config"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.annotation,javax.ws.rs,javax.ws.rs.core,org.glassfish.jersey.internal.spi"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.internal.guava"/>
-         <p n="version" t="version" v="2.29"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.internal.inject"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.inject,javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,org.glassfish.jersey.inject.spi,org.glassfish.jersey.internal,org.glassfish.jersey.internal.util.collection,org.glassfish.jersey.model,org.glassfish.jersey.model.internal"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.internal.jsr166"/>
-         <p n="version" t="version" v="2.29"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.internal.l10n"/>
-         <p n="version" t="version" v="2.29"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.internal.routing"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.ws.rs.core,org.glassfish.jersey.message,org.glassfish.jersey.message.internal"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.internal.sonar"/>
-         <p n="version" t="version" v="2.29"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.internal.spi"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.ws.rs.core"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.internal.util"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.ws.rs,javax.ws.rs.core,javax.xml.namespace,javax.xml.parsers,org.glassfish.jersey.internal,org.glassfish.jersey.internal.jsr166,org.glassfish.jersey.internal.util.collection"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.internal.util.collection"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.ws.rs.core"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.logging"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.annotation,javax.ws.rs.core,org.glassfish.jersey.internal.spi"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.message"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.annotation,javax.inject,javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,org.glassfish.jersey.internal,org.glassfish.jersey.internal.util,org.glassfish.jersey.spi"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.message.internal"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.activation,javax.inject,javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,javax.xml.parsers,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stream,org.glassfish.jersey.internal,org.glassfish.jersey.internal.inject,org.glassfish.jersey.internal.util.collection,org.glassfish.jersey.message,org.glassfish.jersey.spi"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.model"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="org.glassfish.jersey.model.internal.spi"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.model.internal"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.annotation,javax.inject,javax.ws.rs,javax.ws.rs.core,org.glassfish.jersey,org.glassfish.jersey.internal.inject,org.glassfish.jersey.internal.spi,org.glassfish.jersey.model,org.glassfish.jersey.process"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.model.internal.spi"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="org.glassfish.jersey.model"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.process"/>
-         <p n="version" t="version" v="2.29"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.process.internal"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.inject,org.glassfish.jersey.internal,org.glassfish.jersey.internal.inject,org.glassfish.jersey.internal.util,org.glassfish.jersey.internal.util.collection,org.glassfish.jersey.model.internal,org.glassfish.jersey.process,org.glassfish.jersey.spi"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.spi"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.annotation,javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,org.glassfish.jersey"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.uri"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.ws.rs.core,org.glassfish.jersey.uri.internal"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.uri.internal"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.ws.rs.core"/>
-      </capability>
-      <require name="package" filter="(&amp;(package=sun.misc)(version&gt;=0.0.0))" extend="false" multiple="false" optional="true">Import package sun.misc</require>
-      <require name="package" filter="(&amp;(package=javax.activation)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.activation</require>
-      <require name="package" filter="(&amp;(package=javax.annotation)(&amp;(version&gt;=1.2.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.annotation</require>
-      <require name="package" filter="(&amp;(package=javax.imageio)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.imageio</require>
-      <require name="package" filter="(&amp;(package=javax.imageio.spi)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.imageio.spi</require>
-      <require name="package" filter="(&amp;(package=javax.imageio.stream)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.imageio.stream</require>
       <require name="package" filter="(&amp;(package=javax.inject)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package javax.inject</require>
-      <require name="package" filter="(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.net.ssl</require>
       <require name="package" filter="(&amp;(package=javax.ws.rs)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.client)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.client</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.container)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.container</require>
       <require name="package" filter="(&amp;(package=javax.ws.rs.core)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.core</require>
       <require name="package" filter="(&amp;(package=javax.ws.rs.ext)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.ext</require>
-      <require name="package" filter="(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.namespace</require>
-      <require name="package" filter="(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.parsers</require>
-      <require name="package" filter="(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.transform</require>
-      <require name="package" filter="(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.transform.dom</require>
-      <require name="package" filter="(&amp;(package=javax.xml.transform.sax)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.transform.sax</require>
-      <require name="package" filter="(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.transform.stream</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.hk2.osgiresourcelocator)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.hk2.osgiresourcelocator</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.inject.spi)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.inject.spi</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.inject)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.inject</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.l10n)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.l10n</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util.collection)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util.collection</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.message)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.message</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.message.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.message.internal</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.model)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.model</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="true">Import package org.glassfish.jersey.server</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server.internal.inject)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="true">Import package org.glassfish.jersey.server.internal.inject</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server.model)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="true">Import package org.glassfish.jersey.server.model</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server.spi.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="true">Import package org.glassfish.jersey.server.spi.internal</require>
+      <require name="package" filter="(&amp;(package=org.jvnet.mimepull)(&amp;(version&gt;=1.9.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.jvnet.mimepull</require>
+   </resource>
+   <resource id="org.glassfish.jersey.media.jersey-media-sse/2.29.0" symbolicname="org.glassfish.jersey.media.jersey-media-sse" version="2.29.0" presentationname="jersey-media-sse" uri="https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-sse/2.29/jersey-media-sse-2.29.jar">
+      <description>Jersey Server Sent Events entity providers support module.</description>
+      <size>77758</size>
+      <license>http://www.eclipse.org/legal/epl-2.0, https://www.gnu.org/software/classpath/license.html, http://www.eclipse.org/org/documents/edl-v10.php, https://opensource.org/licenses/BSD-2-Clause, http://www.apache.org/licenses/LICENSE-2.0.html, https://creativecommons.org/publicdomain/zero/1.0/, http://asm.objectweb.org/license.html, jquery.org/license, http://www.opensource.org/licenses/mit-license.php, https://www.w3.org/Consortium/Legal/copyright-documents-19990405</license>
+      <capability name="bundle">
+         <p n="symbolicname" v="org.glassfish.jersey.media.jersey-media-sse"/>
+         <p n="presentationname" v="jersey-media-sse"/>
+         <p n="version" t="version" v="2.29.0"/>
+         <p n="manifestversion" v="2"/>
+      </capability>
+      <capability name="package">
+         <p n="package" v="org.glassfish.jersey.media.sse"/>
+         <p n="uses:" v="javax.ws.rs.client,javax.ws.rs.core,javax.ws.rs.sse,org.glassfish.jersey.client,org.glassfish.jersey.internal.l10n,org.glassfish.jersey.internal.util,org.glassfish.jersey.server"/>
+         <p n="version" t="version" v="2.29.0"/>
+      </capability>
+      <require name="package" filter="(&amp;(package=javax.annotation)(&amp;(version&gt;=1.2.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.annotation</require>
+      <require name="package" filter="(&amp;(package=javax.inject)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package javax.inject</require>
+      <require name="package" filter="(&amp;(package=javax.ws.rs)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs</require>
+      <require name="package" filter="(&amp;(package=javax.ws.rs.client)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.client</require>
+      <require name="package" filter="(&amp;(package=javax.ws.rs.core)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.core</require>
+      <require name="package" filter="(&amp;(package=javax.ws.rs.ext)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.ext</require>
+      <require name="package" filter="(&amp;(package=javax.ws.rs.sse)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.sse</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.client)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.client</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.guava)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.guava</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.inject)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.inject</require>
@@ -1750,20 +1651,13 @@
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.l10n)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.l10n</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.spi)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.spi</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util.collection)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util.collection</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.message)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.message</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.message.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.message.internal</require>
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.model)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.model</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.model.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.model.internal</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.model.internal.spi)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.model.internal.spi</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.process)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.process</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.process.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.process.internal</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.spi)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.spi</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.uri)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.uri</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.uri.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.uri.internal</require>
-      <require name="package" filter="(&amp;(package=org.osgi.framework)(&amp;(version&gt;=1.8.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.osgi.framework</require>
-      <require name="package" filter="(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.w3c.dom</require>
-      <require name="package" filter="(&amp;(package=org.xml.sax)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.xml.sax</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.server</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server.internal.inject)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.server.internal.inject</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server.model)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.server.model</require>
+      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server.spi.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.server.spi.internal</require>
    </resource>
    <resource id="org.glassfish.jersey.core.jersey-server/2.29.0" symbolicname="org.glassfish.jersey.core.jersey-server" version="2.29.0" presentationname="jersey-core-server" uri="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.29/jersey-server-2.29.jar">
       <description>Jersey core server implementation</description>
@@ -1967,155 +1861,6 @@
       <require name="package" filter="(&amp;(package=org.glassfish.jersey.uri.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.uri.internal</require>
       <require name="package" filter="(&amp;(package=org.xml.sax)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.xml.sax</require>
    </resource>
-   <resource id="org.glassfish.jersey.inject.jersey-hk2/2.29.0" symbolicname="org.glassfish.jersey.inject.jersey-hk2" version="2.29.0" presentationname="jersey-inject-hk2" uri="https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.29/jersey-hk2-2.29.jar">
-      <description>HK2 InjectionManager implementation</description>
-      <size>81751</size>
-      <license>http://www.eclipse.org/legal/epl-2.0, https://www.gnu.org/software/classpath/license.html, http://www.eclipse.org/org/documents/edl-v10.php, https://opensource.org/licenses/BSD-2-Clause, http://www.apache.org/licenses/LICENSE-2.0.html, https://creativecommons.org/publicdomain/zero/1.0/, http://asm.objectweb.org/license.html, jquery.org/license, http://www.opensource.org/licenses/mit-license.php, https://www.w3.org/Consortium/Legal/copyright-documents-19990405</license>
-      <capability name="bundle">
-         <p n="symbolicname" v="org.glassfish.jersey.inject.jersey-hk2"/>
-         <p n="presentationname" v="jersey-inject-hk2"/>
-         <p n="version" t="version" v="2.29.0"/>
-         <p n="manifestversion" v="2"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.inject.hk2"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.annotation,javax.inject,javax.ws.rs.core,org.glassfish.hk2.api,org.glassfish.hk2.utilities.binding,org.glassfish.jersey.inject.spi,org.glassfish.jersey.internal.inject,org.glassfish.jersey.internal.l10n,org.glassfish.jersey.internal.util.collection,org.glassfish.jersey.model,org.glassfish.jersey.process.internal"/>
-      </capability>
-      <require name="package" filter="(&amp;(package=javax.annotation)(&amp;(version&gt;=1.2.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.annotation</require>
-      <require name="package" filter="(&amp;(package=javax.inject)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package javax.inject</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.core)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.core</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.hk2.api)(&amp;(version&gt;=2.5.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.hk2.api</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.hk2.extension)(&amp;(version&gt;=2.5.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.hk2.extension</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.hk2.utilities)(&amp;(version&gt;=2.5.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.hk2.utilities</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.hk2.utilities.binding)(&amp;(version&gt;=2.5.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.hk2.utilities.binding</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.hk2.utilities.reflection)(&amp;(version&gt;=2.5.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.hk2.utilities.reflection</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.inject.spi)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.inject.spi</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.guava)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.guava</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.inject)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.inject</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.l10n)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.l10n</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util.collection)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util.collection</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.model)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.model</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.process.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.process.internal</require>
-      <require name="package" filter="(&amp;(package=org.jvnet.hk2.external.runtime)(&amp;(version&gt;=2.5.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.jvnet.hk2.external.runtime</require>
-   </resource>
-   <resource id="org.glassfish.jersey.media.jersey-media-jaxb/2.29.0" symbolicname="org.glassfish.jersey.media.jersey-media-jaxb" version="2.29.0" presentationname="jersey-media-jaxb" uri="https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.29/jersey-media-jaxb-2.29.jar">
-      <description>JAX-RS features based upon JAX-B.</description>
-      <size>86010</size>
-      <license>http://www.eclipse.org/legal/epl-2.0, https://www.gnu.org/software/classpath/license.html, http://www.eclipse.org/org/documents/edl-v10.php, https://opensource.org/licenses/BSD-2-Clause, http://www.apache.org/licenses/LICENSE-2.0.html, https://creativecommons.org/publicdomain/zero/1.0/, http://asm.objectweb.org/license.html, jquery.org/license, http://www.opensource.org/licenses/mit-license.php, https://www.w3.org/Consortium/Legal/copyright-documents-19990405</license>
-      <capability name="bundle">
-         <p n="symbolicname" v="org.glassfish.jersey.media.jersey-media-jaxb"/>
-         <p n="presentationname" v="jersey-media-jaxb"/>
-         <p n="version" t="version" v="2.29.0"/>
-         <p n="manifestversion" v="2"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.jaxb.internal"/>
-         <p n="version" t="version" v="2.29"/>
-         <p n="uses:" v="javax.inject,javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,javax.xml.bind,javax.xml.parsers,javax.xml.stream,javax.xml.transform,javax.xml.transform.sax,javax.xml.validation,org.glassfish.jersey.internal.inject,org.glassfish.jersey.internal.l10n,org.glassfish.jersey.internal.spi,org.glassfish.jersey.message.internal,org.w3c.dom,org.xml.sax"/>
-      </capability>
-      <require name="package" filter="(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.bind</require>
-      <require name="package" filter="(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.bind.annotation</require>
-      <require name="package" filter="(&amp;(package=javax.inject)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package javax.inject</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.core)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.core</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.ext)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.ext</require>
-      <require name="package" filter="(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.parsers</require>
-      <require name="package" filter="(&amp;(package=javax.xml.stream)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.stream</require>
-      <require name="package" filter="(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.transform</require>
-      <require name="package" filter="(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.transform.dom</require>
-      <require name="package" filter="(&amp;(package=javax.xml.transform.sax)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.transform.sax</require>
-      <require name="package" filter="(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.transform.stream</require>
-      <require name="package" filter="(&amp;(package=javax.xml.validation)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.xml.validation</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.inject)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.inject</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.l10n)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.l10n</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.spi)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.spi</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util.collection)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util.collection</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.message)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.message</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.message.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.message.internal</require>
-      <require name="package" filter="(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.w3c.dom</require>
-      <require name="package" filter="(&amp;(package=org.xml.sax)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.xml.sax</require>
-      <require name="package" filter="(&amp;(package=org.xml.sax.helpers)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.xml.sax.helpers</require>
-   </resource>
-   <resource id="org.glassfish.jersey.media.jersey-media-multipart/2.29.0" symbolicname="org.glassfish.jersey.media.jersey-media-multipart" version="2.29.0" presentationname="jersey-media-multipart" uri="https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-multipart/2.29/jersey-media-multipart-2.29.jar">
-      <description>Jersey Multipart entity providers support module.</description>
-      <size>80363</size>
-      <license>http://www.eclipse.org/legal/epl-2.0, https://www.gnu.org/software/classpath/license.html, http://www.eclipse.org/org/documents/edl-v10.php, https://opensource.org/licenses/BSD-2-Clause, http://www.apache.org/licenses/LICENSE-2.0.html, https://creativecommons.org/publicdomain/zero/1.0/, http://asm.objectweb.org/license.html, jquery.org/license, http://www.opensource.org/licenses/mit-license.php, https://www.w3.org/Consortium/Legal/copyright-documents-19990405</license>
-      <capability name="bundle">
-         <p n="symbolicname" v="org.glassfish.jersey.media.jersey-media-multipart"/>
-         <p n="presentationname" v="jersey-media-multipart"/>
-         <p n="version" t="version" v="2.29.0"/>
-         <p n="manifestversion" v="2"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.media.multipart"/>
-         <p n="uses:" v="javax.ws.rs.core,javax.ws.rs.ext,org.glassfish.jersey.internal.util,org.glassfish.jersey.message,org.glassfish.jersey.message.internal,org.glassfish.jersey.server,org.glassfish.jersey.server.model,org.jvnet.mimepull"/>
-         <p n="version" t="version" v="2.29.0"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.media.multipart.file"/>
-         <p n="uses:" v="javax.ws.rs.core,org.glassfish.jersey.media.multipart"/>
-         <p n="version" t="version" v="2.29.0"/>
-      </capability>
-      <require name="package" filter="(&amp;(package=javax.inject)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package javax.inject</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.core)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.core</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.ext)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.ext</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.inject)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.inject</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.l10n)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.l10n</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util.collection)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util.collection</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.message)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.message</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.message.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.message.internal</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.model)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.model</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="true">Import package org.glassfish.jersey.server</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server.internal.inject)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="true">Import package org.glassfish.jersey.server.internal.inject</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server.model)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="true">Import package org.glassfish.jersey.server.model</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server.spi.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="true">Import package org.glassfish.jersey.server.spi.internal</require>
-      <require name="package" filter="(&amp;(package=org.jvnet.mimepull)(&amp;(version&gt;=1.9.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package org.jvnet.mimepull</require>
-   </resource>
-   <resource id="org.glassfish.jersey.media.jersey-media-sse/2.29.0" symbolicname="org.glassfish.jersey.media.jersey-media-sse" version="2.29.0" presentationname="jersey-media-sse" uri="https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-sse/2.29/jersey-media-sse-2.29.jar">
-      <description>Jersey Server Sent Events entity providers support module.</description>
-      <size>77758</size>
-      <license>http://www.eclipse.org/legal/epl-2.0, https://www.gnu.org/software/classpath/license.html, http://www.eclipse.org/org/documents/edl-v10.php, https://opensource.org/licenses/BSD-2-Clause, http://www.apache.org/licenses/LICENSE-2.0.html, https://creativecommons.org/publicdomain/zero/1.0/, http://asm.objectweb.org/license.html, jquery.org/license, http://www.opensource.org/licenses/mit-license.php, https://www.w3.org/Consortium/Legal/copyright-documents-19990405</license>
-      <capability name="bundle">
-         <p n="symbolicname" v="org.glassfish.jersey.media.jersey-media-sse"/>
-         <p n="presentationname" v="jersey-media-sse"/>
-         <p n="version" t="version" v="2.29.0"/>
-         <p n="manifestversion" v="2"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.glassfish.jersey.media.sse"/>
-         <p n="uses:" v="javax.ws.rs.client,javax.ws.rs.core,javax.ws.rs.sse,org.glassfish.jersey.client,org.glassfish.jersey.internal.l10n,org.glassfish.jersey.internal.util,org.glassfish.jersey.server"/>
-         <p n="version" t="version" v="2.29.0"/>
-      </capability>
-      <require name="package" filter="(&amp;(package=javax.annotation)(&amp;(version&gt;=1.2.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.annotation</require>
-      <require name="package" filter="(&amp;(package=javax.inject)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package javax.inject</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.client)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.client</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.core)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.core</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.ext)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.ext</require>
-      <require name="package" filter="(&amp;(package=javax.ws.rs.sse)(&amp;(version&gt;=2.1.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package javax.ws.rs.sse</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.client)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.client</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.guava)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.guava</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.inject)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.inject</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.jsr166)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.jsr166</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.l10n)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.l10n</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.spi)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.spi</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.internal.util)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.internal.util</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.message)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.message</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.message.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.message.internal</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.model)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.model</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.server</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server.internal.inject)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.server.internal.inject</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server.model)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.server.model</require>
-      <require name="package" filter="(&amp;(package=org.glassfish.jersey.server.spi.internal)(&amp;(version&gt;=2.29.0)(!(version&gt;=3.0.0))))" extend="false" multiple="false" optional="false">Import package org.glassfish.jersey.server.spi.internal</require>
-   </resource>
    <resource id="javassist/3.25.0.GA" symbolicname="javassist" version="3.25.0.GA" presentationname="Javassist" uri="https://repo1.maven.org/maven2/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar">
       <description>Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation    simple.  It is a class library for editing bytecodes in Java.</description>
       <size>780265</size>
@@ -2225,67 +1970,6 @@
          <p n="package" v="org.jvnet.mimepull"/>
          <p n="version" t="version" v="1.9.11"/>
       </capability>
-   </resource>
-   <resource id="org.reflections/0.9.11" symbolicname="org.reflections" version="0.9.11" presentationname="Reflections" uri="https://repo1.maven.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11.jar">
-      <description>Reflections - a Java runtime metadata analysis</description>
-      <size>130999</size>
-      <license>http://www.wtfpl.net/, http://www.opensource.org/licenses/bsd-license.html</license>
-      <capability name="bundle">
-         <p n="symbolicname" v="org.reflections"/>
-         <p n="presentationname" v="Reflections"/>
-         <p n="version" t="version" v="0.9.11"/>
-         <p n="manifestversion" v="2"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.reflections"/>
-         <p n="uses:" v="com.google.common.base,com.google.common.collect,javax.annotation,org.reflections.adapters,org.reflections.scanners,org.reflections.serializers,org.slf4j"/>
-         <p n="version" t="version" v="0.9.11"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.reflections.adapters"/>
-         <p n="uses:" v="javassist.bytecode,javax.annotation,org.reflections.vfs"/>
-         <p n="version" t="version" v="0.9.11"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.reflections.scanners"/>
-         <p n="uses:" v="com.google.common.base,com.google.common.collect,javax.annotation,org.reflections,org.reflections.adapters,org.reflections.vfs"/>
-         <p n="version" t="version" v="0.9.11"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.reflections.serializers"/>
-         <p n="uses:" v="org.reflections"/>
-         <p n="version" t="version" v="0.9.11"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.reflections.util"/>
-         <p n="uses:" v="com.google.common.base,javax.annotation,javax.servlet,org.reflections,org.reflections.adapters,org.reflections.scanners,org.reflections.serializers,org.slf4j"/>
-         <p n="version" t="version" v="0.9.11"/>
-      </capability>
-      <capability name="package">
-         <p n="package" v="org.reflections.vfs"/>
-         <p n="uses:" v="com.google.common.base,javax.annotation"/>
-         <p n="version" t="version" v="0.9.11"/>
-      </capability>
-      <require name="package" filter="(&amp;(package=com.google.common.base)(&amp;(version&gt;=20.0.0)(!(version&gt;=21.0.0))))" extend="false" multiple="false" optional="false">Import package com.google.common.base</require>
-      <require name="package" filter="(&amp;(package=com.google.common.collect)(&amp;(version&gt;=20.0.0)(!(version&gt;=21.0.0))))" extend="false" multiple="false" optional="false">Import package com.google.common.collect</require>
-      <require name="package" filter="(&amp;(package=com.google.common.io)(&amp;(version&gt;=20.0.0)(!(version&gt;=21.0.0))))" extend="false" multiple="false" optional="false">Import package com.google.common.io</require>
-      <require name="package" filter="(&amp;(package=com.google.common.util.concurrent)(&amp;(version&gt;=20.0.0)(!(version&gt;=21.0.0))))" extend="false" multiple="false" optional="false">Import package com.google.common.util.concurrent</require>
-      <require name="package" filter="(&amp;(package=com.google.gson)(version&gt;=0.0.0))" extend="false" multiple="false" optional="true">Import package com.google.gson</require>
-      <require name="package" filter="(&amp;(package=javassist)(&amp;(version&gt;=3.21.0)(!(version&gt;=4.0.0))))" extend="false" multiple="false" optional="false">Import package javassist</require>
-      <require name="package" filter="(&amp;(package=javassist.bytecode)(&amp;(version&gt;=3.21.0)(!(version&gt;=4.0.0))))" extend="false" multiple="false" optional="false">Import package javassist.bytecode</require>
-      <require name="package" filter="(&amp;(package=javassist.bytecode.annotation)(&amp;(version&gt;=3.21.0)(!(version&gt;=4.0.0))))" extend="false" multiple="false" optional="false">Import package javassist.bytecode.annotation</require>
-      <require name="package" filter="(&amp;(package=javassist.expr)(&amp;(version&gt;=3.21.0)(!(version&gt;=4.0.0))))" extend="false" multiple="false" optional="false">Import package javassist.expr</require>
-      <require name="package" filter="(&amp;(package=javax.annotation)(&amp;(version&gt;=3.0.0)(!(version&gt;=4.0.0))))" extend="false" multiple="false" optional="false">Import package javax.annotation</require>
-      <require name="package" filter="(&amp;(package=javax.servlet)(version&gt;=0.0.0))" extend="false" multiple="false" optional="true">Import package javax.servlet</require>
-      <require name="package" filter="(&amp;(package=org.dom4j)(version&gt;=0.0.0))" extend="false" multiple="false" optional="true">Import package org.dom4j</require>
-      <require name="package" filter="(&amp;(package=org.dom4j.io)(version&gt;=0.0.0))" extend="false" multiple="false" optional="true">Import package org.dom4j.io</require>
-      <require name="package" filter="(&amp;(package=org.reflections)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.reflections</require>
-      <require name="package" filter="(&amp;(package=org.reflections.adapters)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.reflections.adapters</require>
-      <require name="package" filter="(&amp;(package=org.reflections.scanners)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.reflections.scanners</require>
-      <require name="package" filter="(&amp;(package=org.reflections.serializers)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.reflections.serializers</require>
-      <require name="package" filter="(&amp;(package=org.reflections.util)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.reflections.util</require>
-      <require name="package" filter="(&amp;(package=org.reflections.vfs)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package org.reflections.vfs</require>
-      <require name="package" filter="(&amp;(package=org.slf4j)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="true">Import package org.slf4j</require>
    </resource>
    <resource id="org.yaml.snakeyaml/1.25.0" symbolicname="org.yaml.snakeyaml" version="1.25.0" presentationname="SnakeYAML" uri="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar">
       <description>YAML 1.1 parser and emitter for Java</description>

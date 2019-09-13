@@ -19,9 +19,11 @@ MAINTAINER Shawn Dempsay <sdempsay@pavlovmedia.com>
 ENV DEBIAN_FRONTEND noninteractive 
 
 ##
-# Set up Open JDK11
+# Set up Open JDK8
 #
-RUN apt-get update && apt-get install -y openjdk-11-jre-headless openjdk-11-jdk-headless wget
+# RUN apt-get update && apt-get install -y openjdk-8-jre-headless openjdk-8-jdk-headless wget
+# RUN apt-get update && apt-get install -y default-jdk wget
+RUN apt-get update && apt-get install -y openjdk-11-jre-headless openjdk-11-jdk-headless wget nano
 
 # Install Felix
 ENV felix_version 6.0.3
@@ -50,11 +52,11 @@ RUN mkdir -p /opt/felix/current/configs
 #
 ADD files/install.gogo /tmp
 ADD files/felix.repository /tmp/felix/repository.xml
-#ADD files/jaxrs.repository /tmp/jaxrs/repository.xml
-#ADD files/slf4j.repository /tmp/slf4j/repository.xml
-ADD https://raw.githubusercontent.com/pavlovmedia/osgi-jaxrs-services/master/obr/repository.xml /tmp/pavlovjax/repository.xml
+ADD files/jaxrs.repository /tmp/jaxrs/repository.xml
+ADD files/slf4j.repository /tmp/slf4j/repository.xml
+# ADD https://raw.githubusercontent.com/pavlovmedia/osgi-jaxrs-services/master/obr/repository.xml /tmp/pavlovjax/repository.xml
+ADD files/pavlovjax/ /tmp/pavlovjax/
 ADD files/com.pavlovmedia.oss.osgi.gogo-1.0.2.jar /opt/felix/current/bundle
-#ADD files/reflections-0.9.12.jar /opt/felix/current/bundle
 
 #
 # Install bundles with OBR
